@@ -1,0 +1,33 @@
+.enabled {
+  border: 1px solid blue;
+  height: 20px;
+  user-select: none;
+}
+
+.enabled:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.disabled {
+  border: 1px solid blue;
+  height: 20px;
+  user-select: none;
+  color: gray;
+}
+
+.disabled:hover {
+  cursor: default;
+}
+
+.weekend {
+  background-color: lightgray;
+}
+
+.today {
+  background-color: bisque;
+}
+
+.selected {
+  background-color: lightblue;
+}
